@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "318735356532",
+    "project_id": "crise-apps-project",
+    "storage_bucket": "crise-apps-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318735356532:android:40f8375f1d47d4cec57721",
+        "android_client_info": {
+          "package_name": "com.example.crise_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318735356532-1m9vl3j91avfk1mmtsjjr64g7l3g6adk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crise_apps",
+            "certificate_hash": "2bd496741026215777550f6625d721247345a8b6"
+          }
+        },
+        {
+          "client_id": "318735356532-nqqu2u7jk5qusphprgsavijj2qj6a2m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD31PPoWhaUYzExoI6yzOcvb2GTpDWHZsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318735356532-nqqu2u7jk5qusphprgsavijj2qj6a2m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
