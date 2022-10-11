@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:crise_apps/auth/auth.dart';
 import 'package:crise_apps/screen/home_page%20copy.dart';
+import 'package:crise_apps/screen/login_page.dart';
 import 'package:crise_apps/screen/register_page.dart';
-import 'package:crise_apps/screen/sign_in_page.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -34,9 +34,12 @@ class MyApp extends StatelessWidget {
                 theme: ThemeData(
                   primarySwatch: Colors.blue,
                 ),
-                home: snapshot.data != null ? SignInPage() : RegisterScreen());
+                home: snapshot.data != null &&
+                        snapshot.data!.emailVerified == true
+                    ? HomePage()
+                    : LoginScreen());
           }
-          return Center(
+          return const Center(
             child: CircularProgressIndicator(),
           );
         });

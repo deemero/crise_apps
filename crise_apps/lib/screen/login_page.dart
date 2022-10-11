@@ -1,27 +1,23 @@
 import 'package:crise_apps/auth/auth.dart';
-import 'package:crise_apps/screen/login_page.dart';
-
-import 'package:flutter/material.dart';
 import 'package:crise_apps/screen/home_page%20copy.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:crise_apps/screen/register_page.dart';
+import 'package:crise_apps/utils/my_snackbar.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:flutter/material.dart';
-
-import '../auth/auth.dart';
-
-class RegisterScreen extends StatefulWidget {
-  const RegisterScreen({super.key});
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
 
   @override
-  State<RegisterScreen> createState() => _RegisterScreenState();
+  State<LoginScreen> createState() => _LoginScreenState();
 }
 
-class _RegisterScreenState extends State<RegisterScreen> {
+class _LoginScreenState extends State<LoginScreen> {
   // calll auth class
   Auth auth = Auth();
+  bool isLoading = false;
 
   TextEditingController email = TextEditingController();
   TextEditingController password = TextEditingController();
@@ -34,14 +30,22 @@ class _RegisterScreenState extends State<RegisterScreen> {
     super.dispose();
   }
 
+  void login() {
+    setState(() {
+      isLoading = true;
+    });
+    auth.loginUser(email.text, password.text, context);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.yellow[200],
       appBar: AppBar(
-        title: const Text("SIGN UP"),
-        centerTitle: true,
         elevation: 0,
+        backgroundColor: Colors.yellow,
+        centerTitle: true,
+        title: const Text("SIGN IN"),
       ),
       body: Form(
         key: keyForm,
@@ -51,8 +55,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: ListView(
               children: [
                 SizedBox(
-                  height: 230,
-                  child: Image.asset("assets/images/register.png"),
+                  height: 200,
+                  child: Image.asset("assets/images/login.png"),
                 ),
                 const SizedBox(
                   height: 20,
@@ -63,8 +67,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   },
                   controller: email,
                   decoration: InputDecoration(
-                      fillColor: Colors.black.withOpacity(0.2),
                       filled: true,
+                      fillColor: Colors.black.withOpacity(0.1),
                       prefixIcon: const Icon(
                         Icons.mail,
                         color: Colors.black,
@@ -86,10 +90,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         ? "Cannot be empty"
                         : null;
                   },
+                  obscureText: true,
                   controller: password,
                   decoration: InputDecoration(
-                      fillColor: Colors.black.withOpacity(0.1),
                       filled: true,
+                      fillColor: Colors.black.withOpacity(0.1),
                       prefixIcon: const Icon(
                         Icons.security_outlined,
                         color: Colors.black,
@@ -107,33 +112,58 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 const SizedBox(
                   height: 20,
                 ),
-                MaterialButton(
-                  onPressed: () {
-                    if (keyForm.currentState!.validate()) {
-                      auth.registerUser(email.text, password.text, context);
+                isLoading
+                    ? const Center(
+                        child: CircularProgressIndicator(),
+                      )
+                    : MaterialButton(
+                        onPressed: () {
+                          if (keyForm.currentState!.validate()) {
+                            login();
+                            setState(() {
+                              isLoading = false;
+                            });
+                          }
+                        },
+                        minWidth: double.infinity,
+                        height: 55,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30)),
+                        color: Colors.yellow,
+                        child: const Text(
+                          "SIGN IN",
+                          style: TextStyle(color: Colors.black),
+                        ),
+                      ),
+                const SizedBox(
+                  height: 15,
+                ),
+                GestureDetector(
+                  onTap: () {
+                    if (email.text.isEmpty) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          mySnackbar("Please fill your email", Colors.red));
                     }
+                    auth.resetPassword(email.text, context);
                   },
-                  minWidth: double.infinity,
-                  height: 55,
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30)),
-                  color: Colors.yellow,
-                  child: const Text(
-                    "REGISTER",
-                    style: TextStyle(color: Colors.black),
-                  ),
+                  child: const Center(
+                      child: Text(
+                    "Forgot Password? klik here",
+                    style: TextStyle(
+                        color: Colors.black, fontWeight: FontWeight.bold),
+                  )),
                 ),
                 const SizedBox(
                   height: 15,
                 ),
                 GestureDetector(
-                  onTap: () => Navigator.pushAndRemoveUntil(
+                  onTap: () => Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (_) => const LoginScreen()),
-                      (route) => false),
+                      MaterialPageRoute(
+                          builder: (_) => const RegisterScreen())),
                   child: const Center(
                     child: Text(
-                      "Already have an account? login here",
+                      "Dont have any account? sign up here",
                       style: TextStyle(
                           color: Colors.black, fontWeight: FontWeight.bold),
                     ),

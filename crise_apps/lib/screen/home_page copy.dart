@@ -1,16 +1,21 @@
 // ignore_for_file: unnecessary_const
 
+import 'package:crise_apps/auth/auth.dart';
+import 'package:crise_apps/screen/login_page.dart';
+import 'package:crise_apps/utils/my_alert.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-import 'sign_in_page.dart';
-
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
+  Auth auth = Auth();
+
+  // controller get data
+  MyAlertDialog alert = MyAlertDialog();
 }
 
 class _HomePageState extends State<HomePage> {
@@ -123,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                   onTap: () {
                     Navigator.pushAndRemoveUntil(
                         context,
-                        MaterialPageRoute(builder: (_) => SignInPage()),
+                        MaterialPageRoute(builder: (_) => LoginScreen()),
                         (route) => false);
                   },
                   splashColor: Colors.blue,
