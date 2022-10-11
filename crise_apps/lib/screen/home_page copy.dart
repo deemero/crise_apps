@@ -1,5 +1,7 @@
 // ignore_for_file: unnecessary_const
 
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -17,64 +19,124 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white10,
-      // appBar: AppBar(
-      //   title: Text(""),
-      // ),
+      appBar: AppBar(
+        backgroundColor: Colors.purple,
+        title: Text("Main Menu"),
+      ),
+      backgroundColor: Colors.black,
       body: Center(
-        child: Padding(
-          padding: const EdgeInsets.all(80.0),
-          child: Column(
+        child: Container(
+          padding: EdgeInsets.all(20),
+          child: GridView.count(
+            shrinkWrap: true,
+            crossAxisCount: 2,
             children: [
-              Text("Crise Apps",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 33,
-                      fontWeight: FontWeight.bold)),
-              Padding(
-                padding: EdgeInsets.all(20.0),
-                child: Text(
-                  "WELCOME BACK",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 22,
-                  ),
+              Card(
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.blue,
+                  child: Center(
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(
+                      Icons.home,
+                      size: 70.0,
+                    ),
+                    Text(
+                      "Home",
+                      style: TextStyle(fontSize: 22),
+                    )
+                  ])),
                 ),
               ),
-              SizedBox(
-                height: 12,
-              ),
-              GestureDetector(
-                onTap: () {},
-                child: Container(
-                  width: 200,
-                  decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.circular(21)),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "HELLO",
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                decoration: TextDecoration.none,
-                                fontFamily: 'Manrope',
-                                color: Colors.white,
-                                fontSize: 16),
-                          ),
-                          Padding(
-                              padding:
-                                  const EdgeInsets.only(top: 100.0, left: 30))
-                        ],
-                      )
-                    ],
-                  ),
+              Card(
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.blue,
+                  child: Center(
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(
+                      Icons.track_changes_outlined,
+                      size: 70.0,
+                      color: Colors.grey,
+                    ),
+                    Text(
+                      "Bible Tracker",
+                      style: TextStyle(fontSize: 22),
+                    )
+                  ])),
                 ),
-              )
+              ),
+              Card(
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.blue,
+                  child: Center(
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(
+                      Icons.book,
+                      size: 70.0,
+                      color: Colors.lightBlue,
+                    ),
+                    Text(
+                      "Bible Video",
+                      style: TextStyle(fontSize: 22),
+                    )
+                  ])),
+                ),
+              ),
+              Card(
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.blue,
+                  child: Center(
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(
+                      Icons.help_center_rounded,
+                      size: 70.0,
+                      color: Color.fromARGB(255, 13, 224, 20),
+                    ),
+                    Text(
+                      "Bible Guideline",
+                      style: TextStyle(fontSize: 22),
+                    )
+                  ])),
+                ),
+              ),
+              Card(
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.blue,
+                  child: Center(
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(
+                      Icons.event,
+                      size: 70.0,
+                      color: Color.fromARGB(255, 150, 175, 76),
+                    ),
+                    Text(
+                      "Event",
+                      style: TextStyle(fontSize: 22),
+                    )
+                  ])),
+                ),
+              ),
+              Card(
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.blue,
+                  child: Center(
+                      child: Column(mainAxisSize: MainAxisSize.min, children: [
+                    Icon(
+                      Icons.logout_outlined,
+                      size: 70.0,
+                    ),
+                    Text(
+                      "Logout",
+                      style: TextStyle(fontSize: 22),
+                    )
+                  ])),
+                ),
+              ),
             ],
           ),
         ),
