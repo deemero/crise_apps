@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
                 theme: ThemeData(
                   primarySwatch: Colors.blue,
                 ),
-                home: snapshot.data != null ? SignInPage() : RegisterScreen());
+                home: snapshot.data != null ? HomePage() : HomePage());
           }
           return Center(
             child: CircularProgressIndicator(),

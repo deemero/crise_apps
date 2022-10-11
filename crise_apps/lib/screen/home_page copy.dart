@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_const
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -16,23 +18,67 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white10,
-      appBar: AppBar(
-        title: Text("hello"),
-      ),
+      // appBar: AppBar(
+      //   title: Text(""),
+      // ),
       body: Center(
-          child: MaterialButton(
-        onPressed: () {
-          Navigator.pushAndRemoveUntil(
-              context,
-              MaterialPageRoute(builder: (_) => SignInPage()),
-              (route) => false);
-        },
-        child: Container(
-          decoration: BoxDecoration(
-              color: Colors.green, borderRadius: BorderRadius.circular(12)),
-          child: Text("Logout"),
+        child: Padding(
+          padding: const EdgeInsets.all(80.0),
+          child: Column(
+            children: [
+              Text("Crise Apps",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 33,
+                      fontWeight: FontWeight.bold)),
+              Padding(
+                padding: EdgeInsets.all(20.0),
+                child: Text(
+                  "WELCOME BACK",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 22,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 12,
+              ),
+              GestureDetector(
+                onTap: () {},
+                child: Container(
+                  width: 200,
+                  decoration: BoxDecoration(
+                      color: Colors.red,
+                      borderRadius: BorderRadius.circular(21)),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "HELLO",
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                decoration: TextDecoration.none,
+                                fontFamily: 'Manrope',
+                                color: Colors.white,
+                                fontSize: 16),
+                          ),
+                          Padding(
+                              padding:
+                                  const EdgeInsets.only(top: 100.0, left: 30))
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              )
+            ],
+          ),
         ),
-      )),
+      ),
     );
   }
 }
