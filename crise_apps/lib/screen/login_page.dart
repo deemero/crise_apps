@@ -40,13 +40,16 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[200],
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Colors.yellow,
-        centerTitle: true,
-        title: const Text("SIGN IN"),
-      ),
+      backgroundColor: Colors.white,
+      // appBar: AppBar(
+      //   elevation: 0,
+      //   backgroundColor: Colors.white,
+      //   centerTitle: true,
+      //   title: const Text(
+      //     "LOGIN",
+      //     style: TextStyle(color: Colors.black),
+      //   ),
+      // ),
       body: Form(
         key: keyForm,
         child: Center(
@@ -56,9 +59,18 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 SizedBox(
                   height: 200,
-                  child: Image.asset("assets/images/login.png"),
+                  child: Image.asset("assets/images/criss.png"),
                 ),
                 const SizedBox(
+                  height: 20,
+                ),
+                Center(
+                    child: Text(
+                  "Welcome! Login To Continue",
+                  style: GoogleFonts.indieFlower(
+                      fontSize: 23, fontWeight: FontWeight.bold),
+                )),
+                SizedBox(
                   height: 20,
                 ),
                 TextFormField(
@@ -71,15 +83,18 @@ class _LoginScreenState extends State<LoginScreen> {
                       fillColor: Colors.black.withOpacity(0.1),
                       prefixIcon: const Icon(
                         Icons.mail,
-                        color: Colors.black,
+                        color: Colors.black12,
                       ),
                       labelStyle: const TextStyle(color: Colors.black),
                       focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30),
+                          borderRadius: BorderRadius.circular(12),
                           borderSide: const BorderSide(color: Colors.black)),
-                      label: const Text("Email"),
+                      label: Text(
+                        "Email",
+                        style: GoogleFonts.indieFlower(),
+                      ),
                       border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30))),
+                          borderRadius: BorderRadius.circular(10))),
                 ),
                 const SizedBox(
                   height: 10,
@@ -96,18 +111,21 @@ class _LoginScreenState extends State<LoginScreen> {
                       filled: true,
                       fillColor: Colors.black.withOpacity(0.1),
                       prefixIcon: const Icon(
-                        Icons.security_outlined,
-                        color: Colors.black,
+                        Icons.lock_clock,
+                        color: Colors.black12,
                       ),
                       labelStyle: const TextStyle(
                         color: Colors.black,
                       ),
                       focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30),
+                          borderRadius: BorderRadius.circular(12),
                           borderSide: const BorderSide(color: Colors.black)),
-                      label: const Text("Password"),
+                      label: Text(
+                        "Password",
+                        style: GoogleFonts.indieFlower(),
+                      ),
                       border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30))),
+                          borderRadius: BorderRadius.circular(10))),
                 ),
                 const SizedBox(
                   height: 20,
@@ -128,11 +146,12 @@ class _LoginScreenState extends State<LoginScreen> {
                         minWidth: double.infinity,
                         height: 55,
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30)),
-                        color: Colors.yellow,
+                            borderRadius: BorderRadius.circular(10)),
+                        color: Color.fromARGB(255, 236, 200, 16),
                         child: const Text(
-                          "SIGN IN",
-                          style: TextStyle(color: Colors.black),
+                          "LOGIN",
+                          style: TextStyle(
+                              color: Colors.black, fontWeight: FontWeight.bold),
                         ),
                       ),
                 const SizedBox(
@@ -146,11 +165,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     }
                     auth.resetPassword(email.text, context);
                   },
-                  child: const Center(
+                  child: Center(
                       child: Text(
-                    "Forgot Password? klik here",
-                    style: TextStyle(
-                        color: Colors.black, fontWeight: FontWeight.bold),
+                    "Forgot Password? click here",
+                    style: GoogleFonts.indieFlower(
+                        color: Colors.redAccent, fontWeight: FontWeight.bold),
                   )),
                 ),
                 const SizedBox(
@@ -161,11 +180,11 @@ class _LoginScreenState extends State<LoginScreen> {
                       context,
                       MaterialPageRoute(
                           builder: (_) => const RegisterScreen())),
-                  child: const Center(
+                  child: Center(
                     child: Text(
                       "Dont have any account? sign up here",
-                      style: TextStyle(
-                          color: Colors.black, fontWeight: FontWeight.bold),
+                      style: GoogleFonts.indieFlower(
+                          fontWeight: FontWeight.bold, color: Colors.blue),
                     ),
                   ),
                 )

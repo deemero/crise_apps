@@ -37,9 +37,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[200],
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text("SIGN UP"),
+        title: const Text("REGISTER"),
         centerTitle: true,
         elevation: 0,
       ),
@@ -52,7 +52,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               children: [
                 SizedBox(
                   height: 230,
-                  child: Image.asset("assets/images/register.png"),
+                  child: Image.asset("assets/images/criss.png"),
                 ),
                 const SizedBox(
                   height: 20,
@@ -117,7 +117,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   height: 55,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30)),
-                  color: Colors.yellow,
+                  color: Colors.cyan.shade400,
                   child: const Text(
                     "REGISTER",
                     style: TextStyle(color: Colors.black),
