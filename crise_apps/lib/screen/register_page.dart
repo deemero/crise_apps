@@ -60,11 +60,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
                     child: TextFormField(
-                      // validator: ((value) {
-                      //   return email.value.text.isEmpty
-                      //       ? "Cannot be empty"
-                      //       : null;
-                      // }),
+                      validator: ((value) {
+                        return email.value.text.isEmpty
+                            ? "Cannot be empty"
+                            : null;
+                      }),
                       // controller: email,
                       decoration: InputDecoration(
                           // contentPadding: EdgeInsets.only(left: 35.0),
@@ -167,10 +167,10 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         if (keyForm.currentState!.validate()) {
                           auth.registerUser(email.text, password.text, context);
                         }
-                        // Navigator.pushAndRemoveUntil(
-                        //     context,
-                        //     MaterialPageRoute(builder: (_) => SignInPage()),
-                        //     (route) => false); //Inzilations untuk push
+                        Navigator.pushAndRemoveUntil(
+                            context,
+                            MaterialPageRoute(builder: (_) => SignInPage()),
+                            (route) => false); //Inzilations untuk push
                       },
                       minWidth: double.infinity,
                       height: 55,

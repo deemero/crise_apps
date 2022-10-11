@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage> {
                     Icon(
                       Icons.event,
                       size: 70.0,
-                      color: Color.fromARGB(255, 150, 175, 76),
+                      color: Colors.yellow,
                     ),
                     Text(
                       "Event",
@@ -120,13 +120,19 @@ class _HomePageState extends State<HomePage> {
               ),
               Card(
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(builder: (_) => SignInPage()),
+                        (route) => false);
+                  },
                   splashColor: Colors.blue,
                   child: Center(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
                     Icon(
                       Icons.logout_outlined,
                       size: 70.0,
+                      color: Colors.redAccent,
                     ),
                     Text(
                       "Logout",

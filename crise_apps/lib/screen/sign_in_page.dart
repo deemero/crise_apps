@@ -133,10 +133,10 @@ class _SignInPageState extends State<SignInPage> {
                       onPressed: () {
                         if (keyForm.currentState!.validate()) {
                           auth.registerUser(email.text, password.text, context);
-                          // Navigator.pushAndRemoveUntil(
-                          //     context,
-                          //     MaterialPageRoute(builder: (_) => HomePage()),
-                          //     (route) => false); //Inzilations untuk push
+                          Navigator.pushAndRemoveUntil(
+                              context,
+                              MaterialPageRoute(builder: (_) => HomePage()),
+                              (route) => false); //Inzilations untuk push
                         }
                       },
                       minWidth: double.infinity,
