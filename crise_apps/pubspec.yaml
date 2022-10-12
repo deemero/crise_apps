@@ -40,6 +40,7 @@ dependencies:
   firebase_core: ^1.24.0
   firebase_auth: ^3.11.1
   snackbar_extension: ^0.0.1
+  url_launcher: ^6.1.6
 
 dev_dependencies:
   flutter_test:
