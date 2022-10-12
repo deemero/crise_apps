@@ -38,11 +38,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(
-        title: const Text("REGISTER"),
-        centerTitle: true,
-        elevation: 0,
-      ),
       body: Form(
         key: keyForm,
         child: Center(
@@ -51,11 +46,45 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: ListView(
               children: [
                 SizedBox(
-                  height: 230,
+                  height: 200,
                   child: Image.asset("assets/images/criss.png"),
                 ),
                 const SizedBox(
                   height: 20,
+                ),
+                Center(
+                    child: Text(
+                  "Welcome! Register To Continue",
+                  style: GoogleFonts.indieFlower(
+                      fontSize: 23, fontWeight: FontWeight.bold),
+                )),
+                SizedBox(
+                  height: 22,
+                ),
+                TextFormField(
+                  validator: (value) {
+                    // return email.value.text.isEmpty
+                    //     ? "Name cannot be empty"
+                    //     : null;
+                  },
+                  // controller: email,
+                  decoration: InputDecoration(
+                      fillColor: Colors.black.withOpacity(0.1),
+                      filled: true,
+                      prefixIcon: const Icon(
+                        Icons.person_add_alt_1_outlined,
+                        color: Colors.black12,
+                      ),
+                      labelStyle: const TextStyle(color: Colors.black),
+                      focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12),
+                          borderSide: const BorderSide(color: Colors.black)),
+                      label: Text("Fullname", style: GoogleFonts.indieFlower()),
+                      border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                ),
+                SizedBox(
+                  height: 10,
                 ),
                 TextFormField(
                   validator: (value) {
@@ -63,19 +92,19 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   },
                   controller: email,
                   decoration: InputDecoration(
-                      fillColor: Colors.black.withOpacity(0.2),
+                      fillColor: Colors.black.withOpacity(0.1),
                       filled: true,
                       prefixIcon: const Icon(
                         Icons.mail,
-                        color: Colors.black,
+                        color: Colors.black12,
                       ),
                       labelStyle: const TextStyle(color: Colors.black),
                       focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30),
+                          borderRadius: BorderRadius.circular(12),
                           borderSide: const BorderSide(color: Colors.black)),
-                      label: const Text("Email"),
+                      label: Text("Email", style: GoogleFonts.indieFlower()),
                       border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30))),
+                          borderRadius: BorderRadius.circular(10))),
                 ),
                 const SizedBox(
                   height: 10,
@@ -92,17 +121,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       filled: true,
                       prefixIcon: const Icon(
                         Icons.security_outlined,
-                        color: Colors.black,
+                        color: Colors.black12,
                       ),
                       labelStyle: const TextStyle(
                         color: Colors.black,
                       ),
                       focusedBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30),
+                          borderRadius: BorderRadius.circular(12),
                           borderSide: const BorderSide(color: Colors.black)),
-                      label: const Text("Password"),
+                      label: Text(
+                        "Password",
+                        style: GoogleFonts.indieFlower(),
+                      ),
                       border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(30))),
+                          borderRadius: BorderRadius.circular(10))),
                 ),
                 const SizedBox(
                   height: 20,
@@ -116,27 +148,27 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   minWidth: double.infinity,
                   height: 55,
                   shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30)),
-                  color: Colors.cyan.shade400,
+                      borderRadius: BorderRadius.circular(10)),
+                  color: Color.fromARGB(255, 51, 212, 78),
                   child: const Text(
                     "REGISTER",
                     style: TextStyle(color: Colors.black),
                   ),
                 ),
                 const SizedBox(
-                  height: 15,
+                  height: 30,
                 ),
                 GestureDetector(
                   onTap: () => Navigator.pushAndRemoveUntil(
                       context,
                       MaterialPageRoute(builder: (_) => const LoginScreen()),
                       (route) => false),
-                  child: const Center(
-                    child: Text(
-                      "Already have an account? login here",
-                      style: TextStyle(
-                          color: Colors.black, fontWeight: FontWeight.bold),
-                    ),
+                  child: Center(
+                    child: Text("Already have an account? login here",
+                        style: GoogleFonts.indieFlower(
+                            color: Colors.blueAccent,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold)),
                   ),
                 )
               ],

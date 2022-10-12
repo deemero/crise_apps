@@ -1,11 +1,14 @@
 // ignore_for_file: unnecessary_const
 
 import 'package:crise_apps/auth/auth.dart';
+import 'package:crise_apps/main_menu/bible_tracker.dart';
+import 'package:crise_apps/main_menu/bible_video.dart';
 import 'package:crise_apps/screen/login_page.dart';
 import 'package:crise_apps/utils/my_alert.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
@@ -24,9 +27,12 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple,
-        title: Text("Main Menu"),
+        title: Text(
+          "Main Menu",
+          style: GoogleFonts.indieFlower(fontSize: 22),
+        ),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.grey,
       body: Center(
         child: Container(
           padding: EdgeInsets.all(20),
@@ -37,23 +43,26 @@ class _HomePageState extends State<HomePage> {
               Card(
                 child: InkWell(
                   onTap: () {},
-                  splashColor: Colors.blue,
-                  child: Center(
-                      child: Column(mainAxisSize: MainAxisSize.min, children: [
-                    Icon(
-                      Icons.home,
-                      size: 70.0,
-                    ),
-                    Text(
-                      "Home",
-                      style: TextStyle(fontSize: 22),
-                    )
-                  ])),
+                  splashColor: Colors.black,
+                  child: Image.asset("assets/images/criss.png"),
+
+                  // child: Center(
+                  //     child: Column(mainAxisSize: MainAxisSize.min, children: [
+                  //   // Icon(
+                  //   //   Icons.home,
+                  //   //   size: 70.0,
+                  //   // ),
+                  //   Text(
+                  //     "Home",
+                  //     style: GoogleFonts.indieFlower(fontSize: 22),
+                  //   )
+                  // ])),
                 ),
               ),
               Card(
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () => Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => const BibleTracker())),
                   splashColor: Colors.blue,
                   child: Center(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -64,14 +73,15 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Text(
                       "Bible Tracker",
-                      style: TextStyle(fontSize: 22),
+                      style: GoogleFonts.indieFlower(fontSize: 22),
                     )
                   ])),
                 ),
               ),
               Card(
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () => Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => const BibleVideo())),
                   splashColor: Colors.blue,
                   child: Center(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -82,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Text(
                       "Bible Video",
-                      style: TextStyle(fontSize: 22),
+                      style: GoogleFonts.indieFlower(fontSize: 22),
                     )
                   ])),
                 ),
@@ -90,7 +100,7 @@ class _HomePageState extends State<HomePage> {
               Card(
                 child: InkWell(
                   onTap: () {},
-                  splashColor: Colors.blue,
+                  splashColor: Color.fromARGB(255, 13, 224, 20),
                   child: Center(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
                     Icon(
@@ -100,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Text(
                       "Bible Guideline",
-                      style: TextStyle(fontSize: 22),
+                      style: GoogleFonts.indieFlower(fontSize: 22),
                     )
                   ])),
                 ),
@@ -108,7 +118,7 @@ class _HomePageState extends State<HomePage> {
               Card(
                 child: InkWell(
                   onTap: () {},
-                  splashColor: Colors.blue,
+                  splashColor: Colors.yellow,
                   child: Center(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
                     Icon(
@@ -118,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Text(
                       "Event",
-                      style: TextStyle(fontSize: 22),
+                      style: GoogleFonts.indieFlower(fontSize: 22),
                     )
                   ])),
                 ),
@@ -131,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                         MaterialPageRoute(builder: (_) => LoginScreen()),
                         (route) => false);
                   },
-                  splashColor: Colors.blue,
+                  splashColor: Colors.redAccent,
                   child: Center(
                       child: Column(mainAxisSize: MainAxisSize.min, children: [
                     Icon(
@@ -141,7 +151,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Text(
                       "Logout",
-                      style: TextStyle(fontSize: 22),
+                      style: GoogleFonts.indieFlower(fontSize: 22),
                     )
                   ])),
                 ),

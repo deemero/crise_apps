@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
                 home: snapshot.data != null &&
                         snapshot.data!.emailVerified == true
                     ? HomePage()
-                    : LoginScreen());
+                    : HomePage());
           }
           return const Center(
             child: CircularProgressIndicator(),

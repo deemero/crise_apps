@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class BibleTracker extends StatefulWidget {
   const BibleTracker({super.key});
@@ -14,7 +15,12 @@ class _BibleTrackerState extends State<BibleTracker> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("hELLPO"),
+        backgroundColor: Colors.grey,
+        title: Text("Bible Tracker",
+            style: GoogleFonts.indieFlower(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Colors.white)),
       ),
     );
   }
