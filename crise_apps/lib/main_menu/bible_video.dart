@@ -36,6 +36,22 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/TWMhcg83AWg";
                 await launch(url);
               },
+              icon: Icon(Icons.safety_check),
+              label: Text(
+                "LAWS OF MOSES ",
+                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 31, 120, 34)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "https://youtu.be/TWMhcg83AWg";
+                await launch(url);
+              },
               icon: Icon(Icons.sunny),
               label: Text(
                 "Kejadian Bahagian 1",
@@ -74,7 +90,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 198, 194, 79)),
+                  primary: Color.fromARGB(255, 65, 212, 70)),
             ),
           ),
           Card(
@@ -90,7 +106,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 198, 194, 79)),
+                  primary: Color.fromARGB(255, 65, 212, 70)),
             ),
           ),
           Card(
@@ -106,7 +122,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 79, 178, 198)),
+                  primary: Color.fromARGB(255, 65, 212, 70)),
             ),
           ),
           Card(
@@ -122,7 +138,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 51, 65, 64)),
+                  primary: Color.fromARGB(255, 65, 212, 70)),
             ),
           ),
           Card(
@@ -138,7 +154,23 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 172, 5, 255)),
+                  primary: Color.fromARGB(255, 65, 212, 70)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "https://youtu.be/TWMhcg83AWg";
+                await launch(url);
+              },
+              icon: Icon(Icons.history),
+              label: Text(
+                "HISTORY",
+                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 49, 30, 160)),
             ),
           ),
           Card(
@@ -170,7 +202,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 153, 174, 203)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -186,7 +218,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 204, 65, 123)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -202,7 +234,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 107, 184, 105)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -218,7 +250,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 107, 184, 105)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -234,7 +266,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 149, 116, 33)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -250,7 +282,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 158, 146, 116)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -266,7 +298,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 164, 115, 115)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
             ),
           ),
           Card(
@@ -282,7 +314,23 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 90, 55, 122)),
+                  primary: Color.fromARGB(255, 5, 113, 255)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "https://youtu.be/TWMhcg83AWg";
+                await launch(url);
+              },
+              icon: Icon(Icons.wordpress),
+              label: Text(
+                "POETRY",
+                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 207, 52, 52)),
             ),
           ),
           Card(
@@ -298,7 +346,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 146, 188, 56)),
+                  primary: Color.fromARGB(255, 243, 110, 110)),
             ),
           ),
           Card(
@@ -330,7 +378,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 255, 217, 4)),
+                  primary: Color.fromARGB(255, 243, 110, 110)),
             ),
           ),
           Card(
@@ -346,7 +394,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 0, 8, 255)),
+                  primary: Color.fromARGB(255, 243, 110, 110)),
             ),
           ),
           Card(
@@ -362,7 +410,23 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 243, 110, 110)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "https://youtu.be/TWMhcg83AWg";
+                await launch(url);
+              },
+              icon: Icon(Icons.history),
+              label: Text(
+                "MAJOR PROPHETS",
+                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 35, 133, 150)),
             ),
           ),
           Card(
@@ -465,6 +529,22 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
+                String url = "https://youtu.be/TWMhcg83AWg";
+                await launch(url);
+              },
+              icon: Icon(Icons.history),
+              label: Text(
+                "MINOR PROPHETS",
+                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 125, 44, 196)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
                 String url = "https://youtu.be/VfhaM-OESHU";
                 await launch(url);
               },
@@ -474,7 +554,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -490,7 +570,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -506,7 +586,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -522,7 +602,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -538,7 +618,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -554,7 +634,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -570,7 +650,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -586,7 +666,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -602,7 +682,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -618,7 +698,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -634,7 +714,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -650,7 +730,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -666,7 +746,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
             ),
           ),
           Card(
@@ -682,7 +762,449 @@ class _BibleVideoState extends State<BibleVideo> {
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
               ),
               style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 110, 212, 243)),
+                  primary: Color.fromARGB(255, 98, 25, 120)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "NEW TASTEMENT/PERJANJIAN BARU",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "GOSPELS",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 168, 157, 173)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Matius",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Markus",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Lukas",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Yohannes",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "HISTORY",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 168, 157, 173)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Kisah Para Rasul",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "PAUL LETTER",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 168, 157, 173)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Roma",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "1/2 Korintus",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Galatia",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Efesus",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Filipi",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "OTHER LETTER",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 168, 157, 173)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Kolose",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "1/2 Telesonika",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "1/2 Timotius",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Titus",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Felimon",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Ibrani",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Yokubus",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "1/2 Petrus",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "1/2/3 Yohannes",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Yudas",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
+            ),
+          ),
+          Card(
+            // color: Colors.grey,
+            child: ElevatedButton.icon(
+              onPressed: () async {
+                String url = "";
+                await launch(url);
+              },
+              icon: Icon(Icons.wallet),
+              label: Text(
+                "Wahyu",
+                style: GoogleFonts.indieFlower(
+                    fontWeight: FontWeight.bold, color: Colors.black),
+              ),
+              style: ElevatedButton.styleFrom(
+                  primary: Color.fromARGB(255, 234, 231, 235)),
             ),
           ),
         ],
