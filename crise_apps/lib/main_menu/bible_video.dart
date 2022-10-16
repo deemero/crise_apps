@@ -84,7 +84,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/BlEk0x7Q8uY";
                 await launch(url);
               },
-              icon: Icon(Icons.person),
+              icon: Icon(Icons.sunny),
               label: Text(
                 "Keluaran Bahaian 1",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -100,7 +100,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/3x-zHo7U_WE";
                 await launch(url);
               },
-              icon: Icon(Icons.person),
+              icon: Icon(Icons.sunny),
               label: Text(
                 "Keluaran Bahaian 2",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -116,7 +116,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/bguCNZvhUiQ";
                 await launch(url);
               },
-              icon: Icon(Icons.book),
+              icon: Icon(Icons.sunny),
               label: Text(
                 "Imamat ",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -132,7 +132,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/GlZpY2VJqPk";
                 await launch(url);
               },
-              icon: Icon(Icons.numbers),
+              icon: Icon(Icons.sunny),
               label: Text(
                 "Bilangan ",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -148,7 +148,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/kLwuBAFBNBg";
                 await launch(url);
               },
-              icon: Icon(Icons.replay),
+              icon: Icon(Icons.sunny),
               label: Text(
                 "Ulangan",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -164,7 +164,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/TWMhcg83AWg";
                 await launch(url);
               },
-              icon: Icon(Icons.history),
+              icon: Icon(Icons.person),
               label: Text(
                 "HISTORY",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -180,7 +180,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/BraD9UPtWGw";
                 await launch(url);
               },
-              icon: Icon(Icons.male),
+              icon: Icon(Icons.history),
               label: Text(
                 "Yoshua",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -196,7 +196,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/0xoJlaPfOiM";
                 await launch(url);
               },
-              icon: Icon(Icons.rule),
+              icon: Icon(Icons.history),
               label: Text(
                 "Hakim2 ",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -212,7 +212,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/dHiRnlFu6yo";
                 await launch(url);
               },
-              icon: Icon(Icons.female),
+              icon: Icon(Icons.history),
               label: Text(
                 "Rut",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -228,7 +228,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/FkulFlha45c";
                 await launch(url);
               },
-              icon: Icon(Icons.abc),
+              icon: Icon(Icons.history),
               label: Text(
                 "1 Samuel",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -244,7 +244,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/yxNy34ZS0xc";
                 await launch(url);
               },
-              icon: Icon(Icons.abc),
+              icon: Icon(Icons.history),
               label: Text(
                 "2 Samuel",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -260,7 +260,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/f9CRYzJH7es";
                 await launch(url);
               },
-              icon: Icon(Icons.money),
+              icon: Icon(Icons.history),
               label: Text(
                 "1/2 Raja2",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -276,7 +276,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/_0Xuth1lw44";
                 await launch(url);
               },
-              icon: Icon(Icons.password),
+              icon: Icon(Icons.history),
               label: Text(
                 "1/2 Tawarikh ",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -292,7 +292,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/wWAZHTpSxYg";
                 await launch(url);
               },
-              icon: Icon(Icons.book_rounded),
+              icon: Icon(Icons.history),
               label: Text(
                 "Ezra dan Nehemia",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -308,7 +308,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/7gbN2TbmCaM";
                 await launch(url);
               },
-              icon: Icon(Icons.female_rounded),
+              icon: Icon(Icons.history),
               label: Text(
                 "Ester",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -340,7 +340,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/6PhUHYInJO4";
                 await launch(url);
               },
-              icon: Icon(Icons.person_add_disabled),
+              icon: Icon(Icons.book),
               label: Text(
                 "Ayub/Job",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -356,7 +356,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/Gj2ZJSTXE1E";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.book),
               label: Text(
                 "Psalms/Mazmur",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -372,7 +372,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/He75ZssdAN0";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.book),
               label: Text(
                 "Amsal",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -388,7 +388,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "https://youtu.be/bzT7jzh2F58";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.book),
               label: Text(
                 "Pengkhutbah",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -401,10 +401,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.book),
               label: Text(
                 "Kidung Agung",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -433,10 +433,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person_add_alt_1_sharp),
               label: Text(
                 "Yesaya",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -449,10 +449,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person_add_alt_1_sharp),
               label: Text(
                 "Yeremia",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -465,10 +465,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person_add_alt_1_sharp),
               label: Text(
                 "Ratapan",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -481,10 +481,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person_add_alt_1_sharp),
               label: Text(
                 "Yehezkial",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -497,10 +497,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person_add_alt_1_sharp),
               label: Text(
                 "Daniel",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -513,10 +513,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person_add_alt_1_sharp),
               label: Text(
                 "Hosea",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -545,10 +545,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Yoel",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -561,10 +561,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Amos",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -577,10 +577,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Obaja",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -593,10 +593,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Yunus",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -609,10 +609,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Mikha",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -625,10 +625,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Nahum",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -641,10 +641,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Yunus",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -657,10 +657,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Mikha",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -673,10 +673,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Nahum",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -689,10 +689,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Habakuk",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -705,10 +705,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Zefanya",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -721,10 +721,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Hagai",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -737,10 +737,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Zakharia",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -753,10 +753,10 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "https://youtu.be/VfhaM-OESHU";
+                String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.male_outlined),
               label: Text(
                 "Maleaki",
                 style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
@@ -772,7 +772,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.book_online),
               label: Text(
                 "NEW TASTEMENT/PERJANJIAN BARU",
                 style: GoogleFonts.indieFlower(
@@ -789,7 +789,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.dark_mode),
               label: Text(
                 "GOSPELS",
                 style: GoogleFonts.indieFlower(
@@ -806,7 +806,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.wb_sunny),
               label: Text(
                 "Matius",
                 style: GoogleFonts.indieFlower(
@@ -823,7 +823,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.wb_sunny),
               label: Text(
                 "Markus",
                 style: GoogleFonts.indieFlower(
@@ -840,7 +840,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.wb_sunny),
               label: Text(
                 "Lukas",
                 style: GoogleFonts.indieFlower(
@@ -857,7 +857,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.wb_sunny),
               label: Text(
                 "Yohannes",
                 style: GoogleFonts.indieFlower(
@@ -874,7 +874,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.history_edu),
               label: Text(
                 "HISTORY",
                 style: GoogleFonts.indieFlower(
@@ -891,7 +891,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.person),
               label: Text(
                 "Kisah Para Rasul",
                 style: GoogleFonts.indieFlower(
@@ -908,7 +908,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.work_history_rounded),
               label: Text(
                 "PAUL LETTER",
                 style: GoogleFonts.indieFlower(
@@ -925,7 +925,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.bookmark_added_rounded),
               label: Text(
                 "Roma",
                 style: GoogleFonts.indieFlower(
@@ -942,7 +942,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.bookmark_added_rounded),
               label: Text(
                 "1/2 Korintus",
                 style: GoogleFonts.indieFlower(
@@ -959,7 +959,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.bookmark_added_rounded),
               label: Text(
                 "Galatia",
                 style: GoogleFonts.indieFlower(
@@ -976,7 +976,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.bookmark_added_rounded),
               label: Text(
                 "Efesus",
                 style: GoogleFonts.indieFlower(
@@ -993,7 +993,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.bookmark_added_rounded),
               label: Text(
                 "Filipi",
                 style: GoogleFonts.indieFlower(
@@ -1010,7 +1010,7 @@ class _BibleVideoState extends State<BibleVideo> {
                 String url = "";
                 await launch(url);
               },
-              icon: Icon(Icons.wallet),
+              icon: Icon(Icons.my_library_books_sharp),
               label: Text(
                 "OTHER LETTER",
                 style: GoogleFonts.indieFlower(
