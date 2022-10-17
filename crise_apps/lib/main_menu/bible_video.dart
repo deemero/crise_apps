@@ -433,7 +433,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/rMvwI5evHwk";
                 await launch(url);
               },
               icon: Icon(Icons.person_add_alt_1_sharp),
@@ -449,7 +449,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/HJ6Fws_Kwzo";
                 await launch(url);
               },
               icon: Icon(Icons.person_add_alt_1_sharp),
@@ -465,7 +465,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/FIE-3rb5dbk";
                 await launch(url);
               },
               icon: Icon(Icons.person_add_alt_1_sharp),
@@ -481,7 +481,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/kq29NrX417Q";
                 await launch(url);
               },
               icon: Icon(Icons.person_add_alt_1_sharp),
@@ -497,7 +497,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/KskRV6MWc7c";
                 await launch(url);
               },
               icon: Icon(Icons.person_add_alt_1_sharp),
@@ -513,7 +513,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/jz_OxntlZHA";
                 await launch(url);
               },
               icon: Icon(Icons.person_add_alt_1_sharp),
@@ -545,7 +545,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/O_1iFajwdZQ";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -561,7 +561,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/DDzzwuKtutw";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -577,7 +577,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/kMf4WW1n5Pc";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -593,7 +593,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/GFRXBZQGoPQ";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -609,7 +609,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/-rfYJczXJcU";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -625,7 +625,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/ffnM7hqVfrU";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -641,55 +641,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
-                await launch(url);
-              },
-              icon: Icon(Icons.male_outlined),
-              label: Text(
-                "Yunus",
-                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
-              ),
-              style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 98, 25, 120)),
-            ),
-          ),
-          Card(
-            // color: Colors.grey,
-            child: ElevatedButton.icon(
-              onPressed: () async {
-                String url = "";
-                await launch(url);
-              },
-              icon: Icon(Icons.male_outlined),
-              label: Text(
-                "Mikha",
-                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
-              ),
-              style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 98, 25, 120)),
-            ),
-          ),
-          Card(
-            // color: Colors.grey,
-            child: ElevatedButton.icon(
-              onPressed: () async {
-                String url = "";
-                await launch(url);
-              },
-              icon: Icon(Icons.male_outlined),
-              label: Text(
-                "Nahum",
-                style: GoogleFonts.indieFlower(fontWeight: FontWeight.bold),
-              ),
-              style: ElevatedButton.styleFrom(
-                  primary: Color.fromARGB(255, 98, 25, 120)),
-            ),
-          ),
-          Card(
-            // color: Colors.grey,
-            child: ElevatedButton.icon(
-              onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/HHztlgmXoDU";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -705,7 +657,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/6c_zrjO6Vio";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -721,7 +673,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/kz62QTe4YAs";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -737,7 +689,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/CclWiAKZsKI";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -753,7 +705,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/lOzQkLn2joM";
                 await launch(url);
               },
               icon: Icon(Icons.male_outlined),
@@ -803,7 +755,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/r7wxWUcgf1s";
                 await launch(url);
               },
               icon: Icon(Icons.wb_sunny),
@@ -820,7 +772,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/UucekJFIQ58";
                 await launch(url);
               },
               icon: Icon(Icons.wb_sunny),
@@ -837,7 +789,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/vHb9Uw3UzZA";
                 await launch(url);
               },
               icon: Icon(Icons.wb_sunny),
@@ -854,7 +806,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/U73HFzHSkdI";
                 await launch(url);
               },
               icon: Icon(Icons.wb_sunny),
@@ -888,7 +840,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/S73ZmLcr_o8";
                 await launch(url);
               },
               icon: Icon(Icons.person),
@@ -922,7 +874,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/tAGdzk8N4H0";
                 await launch(url);
               },
               icon: Icon(Icons.bookmark_added_rounded),
@@ -939,7 +891,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/y6NdqCPDC1U";
                 await launch(url);
               },
               icon: Icon(Icons.bookmark_added_rounded),
@@ -956,7 +908,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/jqBZFSfYI9E";
                 await launch(url);
               },
               icon: Icon(Icons.bookmark_added_rounded),
@@ -973,7 +925,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/qtw8IA7949E";
                 await launch(url);
               },
               icon: Icon(Icons.bookmark_added_rounded),
@@ -990,7 +942,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/VH8kBNeiiD0";
                 await launch(url);
               },
               icon: Icon(Icons.bookmark_added_rounded),
@@ -1024,7 +976,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/Wg-jSyeleQE";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1041,7 +993,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/vLYVfz-9x50";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1058,7 +1010,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/Og_ogcyWFLY";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1075,7 +1027,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/sAcIQp5niYI";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1092,7 +1044,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/J_zP6hz67zQ";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1109,7 +1061,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/mBdg2ienJSM";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1126,7 +1078,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/x3KsWUO0NB8";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1143,7 +1095,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/1Ww263guCqo";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1160,7 +1112,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/UW7gulPRS9s";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1177,7 +1129,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/IgAF9wjpBoE";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
@@ -1194,7 +1146,7 @@ class _BibleVideoState extends State<BibleVideo> {
             // color: Colors.grey,
             child: ElevatedButton.icon(
               onPressed: () async {
-                String url = "";
+                String url = "https://youtu.be/f7Sv1sxmtDY";
                 await launch(url);
               },
               icon: Icon(Icons.wallet),
